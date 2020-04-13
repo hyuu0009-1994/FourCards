@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .navigation{
+            background-color: cadetblue;
+            padding:10px;
+        }
+        .pictures{
+            background-color: brown;
+            background-image: url('https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">Navigation</div>
+    <div class="pictures">
+        <div>
+            <h1>Dophin</h1>
+            <picture>
+                <source media="(min-width: 700px)" srcset="https://pic1.zhimg.com/v2-3b4fc7e3a1195a081d0259246c38debc_1200x500.jpg"> 
+                <source media="(min-width: 650px)" srcset="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg">
+                <img src="https://images.pexels.com/photos/462030/pexels-photo-462030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width: auto;">
+            </picture>
+        </div>
+        <div>
+            <a><img src="https://via.placeholder.com/150"></a>
+        </div>
+        <div>
+            <a><img src="https://via.placeholder.com/150"></a>
+        </div>
+        <div>
+            <a><img src="https://via.placeholder.com/150"></a>
+        </div>
+    </div>
+    <div class="timetable" style="margin: 10px">
+    <table>
+        <caption><strong>Timetable</strong></caption>
+        <tr>
+            <td rowspan="2">
+                <th>Blank</th>
+                <th colspan="2">Timetable</th>
+                <th>Study Check</th>
+                <th colspan="2">Timetable</th>
+                <th>Study Check</th>
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>6:00</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+</div>
+
+    <div class="list" style="list-style: circle;">
+        <h2>Drinking list</h2>
+        <ul>
+            <li>Morning tea</li>
+            <li>Coffee</li>
+            <li>Tea</li>
+        </ul>
+    </div>
+    <hr>
+    <iframe src="https://www.w3schools.com">
+        <p>Something happen</p>
+    </iframe>
+    <div class="ListWithOrder">
+        <h2>Another List</h2>
+        <ol type="">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Morning Tea</li>
+        </ol>
+    </div>
+
+    <div class="Form">
+        <form>
+            <label for="fname">First Name</label><br>
+            <input type="radio"><br>
+            <label for="Date">Birthday</label><br>
+            <input type="date">
+        </form>
+    </div>
+
+</body>
+</html>
